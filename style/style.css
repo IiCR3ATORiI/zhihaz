@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .nav__item + .nav__item {
   margin-left: 31px;
 }
@@ -61,4 +67,19 @@ a {
   line-height: 22px;
   /* identical to box height */
   color: #ffffff;
+}
+.category__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #202020;
+}
+.category__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category__item {
+  width: 306px;
+  height: 304px;
 }/*# sourceMappingURL=style.css.map */
