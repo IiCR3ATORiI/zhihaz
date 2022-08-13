@@ -1,7 +1,12 @@
 body,
 ul,
 li,
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 	padding: 0;
 }
@@ -20,7 +25,35 @@ a {
 	margin: 0 auto;
 	width: 100%;
 }
+.site-box {
+	display: flex;
+	align-items: center;
+	&__title {
+		font-weight: 600;
+		font-size: 38px;
+		line-height: 45px;
+		/* identical to box height */
 
+		color: #202020;
+	}
+	&__link {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 16px;
+		text-decoration-line: underline;
+
+		color: #d2374a;
+	}
+}
+.ex {
+	background-color: #d2374a;
+	max-width: 200px;
+	height: 200px;
+}
+
+.child {
+	width: 100%;
+}
 .nav__item + .nav__item {
 	margin-left: 31px;
 }
@@ -38,6 +71,8 @@ a {
 	}
 }
 .main {
+	background-color: darkblue;
+	margin-bottom: 46px;
 	&__left {
 		display: flex;
 	}
@@ -77,6 +112,8 @@ a {
 	}
 }
 .category {
+	background-color: crimson;
+	padding-top: 46px;
 	&__title {
 		font-weight: 600;
 		font-size: 24px;
