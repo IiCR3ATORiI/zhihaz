@@ -60,6 +60,7 @@ a {
 .nav__item + .nav__item {
 	margin-left: 31px;
 }
+
 .nav {
 	&__list {
 		display: flex;
@@ -167,5 +168,39 @@ a {
 		background-color: #434343;
 		height: 100px;
 		width: 100px;
+	}
+}
+
+.season {
+	&__purp {
+		position: relative;
+		width: 305px;
+		height: 436px;
+
+		background-color: #d2374a;
+		border-radius: 5px;
+	}
+	&__title {
+		padding-left: 29px;
+		padding-right: 57px;
+		padding-top: 163px;
+		padding-bottom: 197px;
+		font-family: "Raleway";
+		font-style: normal;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 38px;
+		color: #ffffff;
+	}
+	&__img-left {
+		position: absolute;
+		top: 0;
+		left: 23px;
+	}
+
+	&__img-right {
+		position: absolute;
+		bottom: 0;
+		left: 79px;
 	}
 }
