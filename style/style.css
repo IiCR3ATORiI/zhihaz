@@ -166,4 +166,34 @@ a {
   background-color: #434343;
   height: 100px;
   width: 100px;
+}
+
+.season__purp {
+  position: relative;
+  width: 305px;
+  height: 436px;
+  background-color: #d2374a;
+  border-radius: 5px;
+}
+.season__title {
+  padding-left: 29px;
+  padding-right: 57px;
+  padding-top: 163px;
+  padding-bottom: 197px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+}
+.season__img-left {
+  position: absolute;
+  top: 0;
+  left: 23px;
+}
+.season__img-right {
+  position: absolute;
+  bottom: 0;
+  left: 79px;
 }/*# sourceMappingURL=style.css.map */
