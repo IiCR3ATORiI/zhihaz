@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
 body,
 ul,
 li,
@@ -196,4 +202,50 @@ a {
   position: absolute;
   bottom: 0;
   left: 79px;
+  z-index: 1;
+}
+.season__img-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+}
+.season__wrapper {
+  display: flex;
+}
+.season__slider {
+  margin-left: 20px;
+}
+.season__span {
+  color: #b4b4b4;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.season__main-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 10px;
+  color: #202020;
+}
+.season__number {
+  display: flex;
+}
+.season__number1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 10px;
+  color: #d2374a;
+}
+.season__number2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 25px;
+  color: #b4b4b4;
+}
+.season__img2 {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
