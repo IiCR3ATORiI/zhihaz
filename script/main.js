@@ -14,3 +14,10 @@ function plus(a, b) {
 	return a + b;
 }
 console.log(plus(10, 7));
+let obj = {
+	name: "Ali",
+	SayHello() {
+		console.log(obj.name);
+	},
+};
+obj.SayHello();
