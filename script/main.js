@@ -20,4 +20,13 @@ let obj = {
 		console.log(obj.name);
 	},
 };
-obj.SayHello();
+let ac = 5;
+ac = "lol";
+console.log(ac);
+let obj1 = { user: "ali" };
+let obj2 = { user: "ali" };
+console.log(obj1 === obj2);
+let arr = ["A", "b", "c"];
+console.log(arr[1]);
+let obj3 = { user: "ali" };
+console.log(obj3["user"]);
